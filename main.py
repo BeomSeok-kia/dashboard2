@@ -7,5 +7,8 @@ def main():
     st.title('This is dashboard2')
 
     df = load_data()
+
+    st.write(df)
+
 if __name__==	'__main__':
     main()
